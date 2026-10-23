@@ -1,0 +1,16 @@
+{
+  "name": "minise-workflow-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A runnable Mini SE agent workflow: requirements -> design -> code.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "cli": "node src/cli.js",
+    "config": "node src/config.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

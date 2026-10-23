@@ -1,0 +1,14 @@
+{
+  "name": "minise-books-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "图书管理服务，支持新增、查询、修改、删除图书",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

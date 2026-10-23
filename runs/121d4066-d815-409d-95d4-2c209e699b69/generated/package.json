@@ -1,0 +1,14 @@
+{
+  "name": "minise-tasks-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "一个任务清单服务，支持新增、查询、修改和删除任务",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

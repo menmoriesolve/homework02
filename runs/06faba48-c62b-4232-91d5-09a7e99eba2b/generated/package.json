@@ -1,0 +1,14 @@
+{
+  "name": "minise-items-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "一个校园失物招领服务，支持发布失物信息、浏览列表、标记已找回和删除信息",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
